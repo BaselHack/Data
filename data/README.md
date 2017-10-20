@@ -34,7 +34,7 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/opendataBS)
 * ascii Dateien, RAW
 * Ort = Dateiname
 * Inhalt Geschwindigkeit, Zeitpunkt, Richtung, Fahrzeuglänge
-* LINK2SET -> (https://github.com/StakaBS/BaselHack/tree/master/radardaten)
+* [Daten](https://github.com/StakaBS/BaselHack/tree/master/radardaten)
 
 *Hinweis*
 * Für Hilfe zur Geocodierung -> daten@baselhack.ch
