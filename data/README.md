@@ -43,7 +43,7 @@ Welcome to the baselhack mini data world
 *Hinweis*
 * Für Hilfe zur Geocodierung -> daten@baselhack.ch
 
-## Verkehrszählugnsdaten
+## Verkehrszählungsdaten
 **Lieferant:** [AFM](http://www.mobilitaet.bs.ch)
 * Verkehrszählungsdaten an ca. 32 Standorten 145 Standorten
 * Excel-Tabellen
