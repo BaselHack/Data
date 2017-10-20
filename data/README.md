@@ -29,7 +29,7 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd)
 * Für Zugang auf Daten in SQL-format -> daten@baselhack.ch
 
 ## Radardaten der Abteilung Verkehr, Kantonspolizei
-**Lieranten:** [JSD, Kantonspolizei, Abteilung Verkehr](http://www.polizei.bs.ch)
+**Lieferant:** [JSD, Kantonspolizei, Abteilung Verkehr](http://www.polizei.bs.ch)
 * über 400 Standorte, diverse Messintervalle
 * ascii Dateien, RAW
 * Ort = Dateiname
