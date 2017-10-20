@@ -1,0 +1,139 @@
+NVBW Trias
+******************************
+Haltestellenkataster
+http://diva4-9.efa-bw.de/Documents/Kataster/Kataster.html
+
+Beispiele Triasabfragen auf das NVBW Testsystem
+
+Post: 
+Content-Type: text/xml
+
+StopEvent:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias version="1.1" xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/trias file:///C:/development/HEAD/extras/TRIAS/TRIAS_1.1/Trias.xsd">
+ <ServiceRequest>
+    <siri:RequestTimestamp>2016-08-11T11:00:00</siri:RequestTimestamp>
+    <siri:RequestorRef>kvvTr!a5_R3qu3st0r_R3F_T3ST</siri:RequestorRef>
+    <RequestPayload>
+      <StopEventRequest>
+        <Location>
+          <LocationRef>
+            <StopPointRef>de:8212:7</StopPointRef>
+          </LocationRef>
+          <DepArrTime>2017-08-22T10:30:00Z</DepArrTime>
+        </Location>
+        <Params>
+          <NumberOfResults>3</NumberOfResults>
+          <StopEventType>departure</StopEventType>
+          <IncludePreviousCalls>false</IncludePreviousCalls>
+          <IncludeOnwardCalls>false</IncludeOnwardCalls>
+          <IncludeRealtimeData>true</IncludeRealtimeData>
+        </Params>
+      </StopEventRequest>
+    </RequestPayload>
+  </ServiceRequest>
+</Trias>
+
+TripRequest: 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias version="1.1" xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ServiceRequest>
+    <siri:RequestTimestamp>2016-08-11T11:00:00</siri:RequestTimestamp>
+    <siri:RequestorRef>kvvTr!a5_R3qu3st0r_R3F_T3ST</siri:RequestorRef>
+    <RequestPayload>
+      <TripRequest>
+        <Origin>
+          <LocationRef>
+            <StopPointRef>de:8212:7:1:1</StopPointRef>
+          </LocationRef>
+          <DepArrTime>2017-08-22T10:30:00Z</DepArrTime>
+        </Origin>
+        <Destination>
+          <LocationRef>
+            <StopPointRef>de:8212:4500:1:1</StopPointRef>
+          </LocationRef>
+        </Destination>
+        <Params>
+          <IncludeTrackSections>true</IncludeTrackSections>
+          <IncludeLegProjection>true</IncludeLegProjection>
+          <IncludeIntermediateStops>true</IncludeIntermediateStops>
+          <IncludeFares>true</IncludeFares>
+        </Params>
+      </TripRequest>
+    </RequestPayload>
+  </ServiceRequest>
+</Trias>
+
+LocationInformation: Haltestellen nach Koordinaten suchen:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias version="1.1" xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/trias file:///C:/development/HEAD/extras/TRIAS/TRIAS_1.1/Trias.xsd">
+  <ServiceRequest>
+    <siri:RequestTimestamp>2016-08-11T11:00:00</siri:RequestTimestamp>
+    <siri:RequestorRef>kvvTr!a5_R3qu3st0r_R3F_T3ST</siri:RequestorRef>
+    <RequestPayload>
+      <LocationInformationRequest>
+        <InitialInput>
+          <GeoRestriction>
+            <Circle>
+              <Center>
+                <Longitude>8.401853</Longitude>
+                <Latitude>48.993792</Latitude>
+              </Center>
+              <Radius>3000</Radius>
+            </Circle>
+          </GeoRestriction>
+        </InitialInput>
+        <Restrictions>
+          <Type>stop</Type>
+          <Type>poi</Type>
+          <NumberOfResults>10</NumberOfResults>
+          <IncludePtModes>true</IncludePtModes>
+        </Restrictions>
+      </LocationInformationRequest>
+    </RequestPayload>
+  </ServiceRequest>
+</Trias>
+
+LocationInformation: Direkt die Haltestelle anfragen
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias version="1.1" xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/trias file:///C:/development/HEAD/extras/TRIAS/TRIAS_1.1/Trias.xsd">
+  <ServiceRequest>
+    <siri:RequestTimestamp>2016-08-11T11:00:00</siri:RequestTimestamp>
+    <siri:RequestorRef>kvvTr!a5_R3qu3st0r_R3F_T3ST</siri:RequestorRef>
+    <RequestPayload>
+      <LocationInformationRequest>
+<LocationRef>        
+<StopPointRef>de:08212:60</StopPointRef>
+</LocationRef> 
+<Resrtictions>
+<Type>stop</Type>
+<IncludePtModes>true</IncludePtModes>
+</Resrtictions>
+      </LocationInformationRequest>
+    </RequestPayload>
+  </ServiceRequest>
+</Trias>
+
+LocationInformation: Alle Haltestellen eines bestimmten Teilnetzes (hier KVV)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias version="1.1" xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/trias file:///C:/development/HEAD/extras/TRIAS/TRIAS_1.1/Trias.xsd">
+<ServiceRequest>
+<siri:RequestTimestamp>2017-09-29T13:56:00Z</siri:RequestTimestamp>
+<siri:RequestorRef>kvvTr!a5_R3qu3st0r_R3F_T3ST</siri:RequestorRef>
+<RequestPayload>
+<LocationInformationRequest>
+<InitialInput>
+<LocationName>stopListSubnetwork=kvv</LocationName>
+</InitialInput>
+<Restrictions>
+<IncludePtModes>true</IncludePtModes>
+</Restrictions>
+</LocationInformationRequest>
+</RequestPayload>
+</ServiceRequest>
+</Trias>
