@@ -30,8 +30,8 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd)
 
 ## Radardaten der Abteilung Verkehr, Kantonspolizei
 **Lieferant:** [JSD, Kantonspolizei, Abteilung Verkehr](http://www.polizei.bs.ch)
-* über 400 Standorte, diverse Messintervalle
-* ascii Dateien, RAW
+* über 300 Standorte, diverse Messintervalle, in etwa alle zwei Wochen
+* über 800 Files, ascii Dateien, RAW
 * Ort = Dateiname
 * Inhalt Geschwindigkeit, Zeitpunkt, Richtung, Fahrzeuglänge
 * [Daten](https://github.com/StakaBS/BaselHack/tree/master/radardaten)
