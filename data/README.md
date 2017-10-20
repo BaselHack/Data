@@ -11,7 +11,7 @@ Welcome to the baselhack mini data world
 
 #### Tram / Bus PROGNOSE
 * [opentransportdata.swiss](https://opentransportdata.swiss/de/cookbook/verwendung-der-api/)
-* [TriasNVBW](data/triasNVBW)
+* [TriasNVBW](triasNVBW)
 
 #### Tram / Bus IST
 * ? Daten
@@ -34,11 +34,14 @@ Welcome to the baselhack mini data world
 
 ## Radardaten
 **Lieranten:** [JSD](http://www.polizei.bs.ch)
-* ca. 300 Standorte 2 Wochen Messintervall
+* ca. ? Standorte 2 Wochen Messintervall
 * ascii Dateien
-* Ort: Strassenname (Dateiname)
+* Ort = Dateiname
 * Inhalt Geschwindigkeit, Zeitpunkt, Richtung, Fahrzeugslänge
 * LINK2SET -> (https://github.com/StakaBS/BaselHack)
+
+*Hinweis*
+* Für Hilfe zur Geocodierung -> daten@baselhack.ch
 
 ## Verkehrszählugnsdaten
 **Lieferant:** [AFM](http://www.mobilitaet.bs.ch)
