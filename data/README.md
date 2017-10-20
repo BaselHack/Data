@@ -1,4 +1,5 @@
-Welcome to the baselhack mini data world - **Local Data for Local Applications**
+Welcome to the baselhack mini data world
+**Local Data for Local Applications**
 ============================================================================
 
 Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/opendataBS) 
@@ -32,7 +33,7 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/opendataBS)
 * ascii Dateien, RAW
 * Ort = Dateiname
 * Inhalt Geschwindigkeit, Zeitpunkt, Richtung, Fahrzeuglänge
-* LINK2SET -> (https://github.com/StakaBS/BaselHack/Radardaten)
+* LINK2SET -> (https://github.com/StakaBS/BaselHack/radardaten)
 
 *Hinweis*
 * Für Hilfe zur Geocodierung -> daten@baselhack.ch
