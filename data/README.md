@@ -3,7 +3,7 @@ Welcome to the baselhack mini data world
 **Local Data for Local Applications**
 ============================================================================
 
-Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd) 
+Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd) and how to get started with data: [toolbox.schoolofdata.ch](http://toolbox.schoolofdata.ch)
 
 ## Geodaten
 **Lieferant:** [GVA](http://www.gva.bs.ch/)
@@ -17,6 +17,7 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd)
 **Lieferant:** [Statistisches Amt BS](http://www.statistik.bs.ch/)
 * [Atlas](http://www.statistik.bs.ch/karten/basler-atlas.html)
 * [Indikatoren](http://www.statistik.bs.ch/zahlen/indikatoren.html)
+* [github.com/statabs](https://github.com/statabs)
 
 ## Verkehrszählungsdaten
 **Lieferant:** [Amt für Mobilität](http://www.mobilitaet.bs.ch)
