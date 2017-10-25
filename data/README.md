@@ -19,7 +19,7 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd) and on tw
 * [Atlas](http://www.statistik.bs.ch/karten/basler-atlas.html)
 * [Indikatoren](http://www.statistik.bs.ch/zahlen/indikatoren/portal.html)
 * [Indikatoren Umweltbericht](http://www.umweltberichtbeiderbasel.bs.ch/umweltbericht/indikatoren.html)
-* [Zahlentabellen])http://www.statistik.bs.ch/zahlen/tabellen.html)
+* [Zahlentabellen](http://www.statistik.bs.ch/zahlen/tabellen.html)
 
 ## Verkehrszählungsdaten
 **Lieferant:** [Amt für Mobilität](http://www.mobilitaet.bs.ch)
