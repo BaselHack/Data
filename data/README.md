@@ -59,7 +59,7 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd) and on tw
 * undokumentiertes Format
 
 
-**Link zu BVB -Daten und -Dokus (https://1drv.ms/f/s!AkKSyn6dkBvcgq1lnhzMMUt7OuvihA)**
+**Link zu BVB -Daten und -Dokus https://1drv.ms/f/s!AkKSyn6dkBvcgq1lnhzMMUt7OuvihA**
 
 
 Inhalte:
