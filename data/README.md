@@ -53,12 +53,26 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd) and on tw
 #### Tram / Bus PROGNOSE
 * [opentransportdata.swiss](https://opentransportdata.swiss/de/cookbook/verwendung-der-api/)
 * [TriasNVBW](triasNVBW)
+# [EFA-NVBW-TRIAS-URL](https://www.efa-bw.de/trias)
 
 #### Tram / Bus IST
-* ? Daten
-* Excel-Datei 2 Linien an einem Datum (07.09.2017)
+* Excel-Datei 
 * undokumentiertes Format
-* LINK2SET
+
+
+**Link zu BVB -Daten und -Dokus (https://1drv.ms/f/s!AkKSyn6dkBvcgq1lnhzMMUt7OuvihA)**
+
+
+Inhalte:
+
+
+* Dokumentation der XML-Schnittstelle EFA NVBW (Dokumentation-statisch[..].zip)
+* VDV Schriften (452 SOLL; 431 TRIAS)
+* Haltestellenverzeichnis Schweiz (Didokliste HST201704V29.xls)
+* Beispielcode TRIAS Efa inkl. Haltestellenkataster für EFANVBW) und Link auf opentransportdata.swiss (transitopendata_TriasNVBW.txt) >ergänzt um die EFA-NVBW-TRIAS-URL (https://www.efa-bw.de/trias)
+* SOLL_IST BaselHack_SOLL_IST_171016-171023.zip
+* BaselHack_VDV452_171018.zip 
+
 
 *Hinweis*
 * Zugang auf Daten in sql-format -> daten@baselhack.ch
