@@ -52,7 +52,7 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd) and on tw
 
 #### Tram / Bus PROGNOSE
 * [opentransportdata.swiss](https://opentransportdata.swiss/de/cookbook/verwendung-der-api/)
-* [TriasNVBW](triasNVBW) | [EFA-NVBW-TRIAS-URL: www.efa-bw.de/trias](https://www.efa-bw.de/trias)
+* [EFA-NVBW-TRIAS](triasNVBW)
 
 #### Tram / Bus IST
 * Excel-Datei 
