@@ -1,12 +1,21 @@
+Open-Data-Plattform öV Schweiz 
+******************************
+https://opentransportdata.swiss/de/dataset
+
+
 NVBW Trias
 ******************************
 Haltestellenkataster
 http://diva4-9.efa-bw.de/Documents/Kataster/Kataster.html
 
-Beispiele Triasabfragen auf das NVBW Testsystem
 
-Post: 
+Beispiele Triasabfragen auf das NVBW Testsystem
+Testsystem:
+Post:
+http://10.70.182.9:8080/nvbw/trias >gesperrt
 Content-Type: text/xml
+Produktivsystem:
+https://www.efa-bw.de/trias
 
 StopEvent:
 
@@ -36,6 +45,7 @@ StopEvent:
 </Trias>
 
 TripRequest: 
+
 
 <?xml version="1.0" encoding="UTF-8"?>
 <Trias version="1.1" xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
