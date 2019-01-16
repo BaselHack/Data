@@ -4,7 +4,7 @@ Welcome to the baselhack mini data world
 ============================================================================
 how to get started with data: [toolbox.schoolofdata.ch](http://toolbox.schoolofdata.ch)
 
-Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd) and on twitter [#opendataBS](https://twitter.com/hashtag/opendataBS?src=hash)
+Mehr Informationen zu [opendataBS](http://statistik.bs.ch/ueber-uns/rechtliche-grundlagen/fachstelle-ogd.html) and on twitter [#opendataBS](https://twitter.com/hashtag/opendataBS?src=hash)
 
 ## Geodaten
 **Lieferant:** [GVA](http://www.gva.bs.ch/)
@@ -16,20 +16,21 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd) and on tw
 
 ## Statistikdaten
 **Lieferant:** [Statistisches Amt BS](http://www.statistik.bs.ch/)
-* [Atlas](http://www.statistik.bs.ch/karten/basler-atlas.html)
+* [Atlas](http://www.statistik.bs.ch/karten.html)
 * [Indikatoren](http://www.statistik.bs.ch/zahlen/indikatoren/portal.html)
-* [Indikatoren Umweltbericht](http://www.umweltberichtbeiderbasel.bs.ch/umweltbericht/indikatoren.html)
+* [Indikatoren Umweltbericht beider Basel](http://www.umweltberichtbeiderbasel.bs.ch/umweltbericht/indikatoren.html)
 * [Zahlentabellen](http://www.statistik.bs.ch/zahlen/tabellen.html)
 
 ## Verkehrszählungsdaten
 **Lieferant:** [Amt für Mobilität](http://www.mobilitaet.bs.ch)
 * Verkehrszählungsdaten an ca. 32 Standorten 145 Standorten
-* Excel-Tabellen
+* CSV Files
 * Aufgeteilt nach Fuss, Velo und Motorisierter Indiviual-Verkehr (MIV)
-* [Daten](https://github.com/StakaBS/BaselHack)
+* Täglich aktualisierte Daten](https://opendata.swiss/de/dataset/verkehrszahldaten-amt-fur-mobilitat-basel-stadt)
+* [Archiv-Daten](https://github.com/StakaBS/BaselHack)
 
 *Hinweis*
-* Für Zugang auf Daten in SQL-format -> daten@baselhack.ch
+* Für Zugang auf Archiv-Daten in SQL-format -> daten@baselhack.ch
 
 ## Radardaten der Abteilung Verkehr, Kantonspolizei
 **Lieferant:** [JSD, Kantonspolizei, Abteilung Verkehr](http://www.polizei.bs.ch)
@@ -37,7 +38,10 @@ Mehr Informationen zu [opendataBS](http://www.staatskanzlei.bs.ch/ogd) and on tw
 * über 800 Files, ascii Dateien, RAW
 * Ort = Dateiname
 * Inhalt Geschwindigkeit, Zeitpunkt, Richtung, Fahrzeuglänge
-* [Daten](https://github.com/StakaBS/BaselHack/tree/master/radardaten)
+* [Interatkive Visualisierung](https://radardaten.fdn.iwi.unibe.ch/karte)
+* [Archiv-Daten](https://github.com/StakaBS/BaselHack/tree/master/radardaten)
+* [Regelmässig aktualisierte Daten](https://radardaten.fdn.iwi.unibe.ch/data/getrecord)
+* [Verzeichnis der Radar Standorte](https://radardaten.fdn.iwi.unibe.ch/data/getradar)
 
 *Hinweis*
 * Für Hilfe zur Geocodierung -> daten@baselhack.ch
