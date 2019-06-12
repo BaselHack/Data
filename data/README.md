@@ -76,3 +76,9 @@ Inhalte:
 *Hinweis*
 * Zugang auf Daten in sql-format -> daten@baselhack.ch
 * Hilfe bei den APIs -> daten@baselhack.ch
+
+
+**Swiss Data**
+============================================================================
+* https://opendata.ch/
+* https://opendata.swiss
